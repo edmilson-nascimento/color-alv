@@ -2,11 +2,11 @@
 type-pools slis.
 
 types:
-begin of ty_mara,
-  matnr  type mara-matnr,
-  maktx  type makt-maktx,
-  tcolor type slis_t_specialcol_alv,
-end of ty_mara .
+  begin of ty_mara,
+    matnr  type mara-matnr,
+    maktx  type makt-maktx,
+    tcolor type slis_t_specialcol_alv,
+  end of ty_mara .
 
 data: gt_mara  type table of ty_mara,
       gs_mara  type          ty_mara,
